@@ -1,0 +1,12 @@
+header{
+	background: aqua;
+	margin: 50px;
+}
+footer{
+	background: gray;
+}
+
+body{
+	background: pink;
+	margin-left: 100px;
+}
