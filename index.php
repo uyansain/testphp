@@ -1,26 +1,11 @@
-<?doctype html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>My web application</title>
-		<link type="text/css" rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<h1>This is header 1</h1>
-			<nav>
-				<ul>
-					<li><a href="index.php?about">About</a></li>
-					<li><a href="index.php?products">Products</a></li>
-					<li><a href="index.php?blog">Blog</a></li>
-					<li><a href="index.php?contact">Contact</a></li>
-				
-				</ul>
-			</nav>
-			
-		</header>
-		<div>
+
+  
+    <?php
+			include_once('view/header.php');
+			?>
+
+    <h1 class="text-center">Hello, world!</h1>
+    <div class="container">
 			<div id="content">
 				<h3>Content</h3>
 				<?php
@@ -36,16 +21,13 @@
 				?>
 			</div>
 		</div>
-		<div>
-			<button>Next</button>
+		<div class="container">
+			<button class="btn btn-primary">Next</button>
 		</div>
-		<footer>
-		this is footer
-		</footer>
-	
-	</body>
-
-
-
-
-</html>
+            <?php
+			include_once('view/footer.php');
+			?>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
